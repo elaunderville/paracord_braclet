@@ -1,0 +1,31 @@
+# I want users to enter the weave and the functions to take that weeave 
+# and calculate with with entered length and the predefined thickness of 
+# the weave. 
+
+weave = "hex nut"  # The weave determines the thickness of the braclet.
+length = 6      # length determins that circumfrence of the wrist.
+if weave == "cobra" or weav == "fishtale" or weave == "dragon tounge" or weave == "braid":
+    print(f"Your "  + (weave) + " braclet length inluding the buckle should be:")
+    print(f"{length + .5 + (3.1459*.3125)}"+ " inches.") # length + .5 + (3.1459*.3125) 
+                                                         # .3125 is the thickness of any the 
+                                                         # weaves in the if statment
+
+elif weave == "extreme weave":
+    print(f"Your "  + (weave) + " braclet length inluding the buckle should be:")
+    print(f"{length + .5 + (3.1459*.25)}"+ " inches.")
+
+elif weave == "hex nut":
+    print(f"Your "  + (weave) + " braclet length inluding the buckle should be:")
+    print(f"{length + .5 + (3.1459*.44)}"+ " inches.")
+    
+elif weave == "blaze bar":
+    print(f"Your "  + (weave) + " braclet length inluding the buckle should be:")
+    print(f"{length + .5 + (3.1459*.38)}"+ " inches.")
+
+elif weave == "king cobra or solomons dragon":
+    print(f"Your "  + (weave) + " braclet length inluding the buckle should be:")
+    print(f"{length + .5 + (3.1459*.5)}"+ " inches.")
+
+else:
+    print("Sorry, at this time " + (weave) + " is not in our Script.  Select another weave for your braclet.")
+    print("Please contact Eric at elaunderville@gmail.com or ericlaunderville.tech")
