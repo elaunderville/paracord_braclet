@@ -4,7 +4,7 @@
 
 weave = "hex nut"  # The weave determines the thickness of the braclet.
 length = 6      # length determins that circumfrence of the wrist.
-if weave == "cobra" or weav == "fishtale" or weave == "dragon tounge" or weave == "braid":
+if weave == "cobra" or weave == "fishtale" or weave == "dragon tounge" or weave == "braid":
     print(f"Your "  + (weave) + " braclet length inluding the buckle should be:")
     print(f"{length + .5 + (3.1459*.3125)}"+ " inches.") # length + .5 + (3.1459*.3125) 
                                                          # .3125 is the thickness of any the 
